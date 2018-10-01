@@ -1,9 +1,9 @@
 class Kubesecrets < Formula
   desc "Tool to manage secrets in Kubernetes with kubectl"
   homepage "https://github.com/atkinchris/kubesecrets"
-  url "https://github.com/atkinchris/kubesecrets/releases/download/v0.1.0/kubesecrets-0.1.0.tar.gz"
-  sha256 "d0eb938749256a73e4a114eae8703445262bd6b97b034d9bec21fc07fef4514d"
-  version "0.1.0"
+  url "https://github.com/atkinchris/kubesecrets/releases/download/v0.1.1/kubesecrets-0.1.1.tar.gz"
+  sha256 "ffd778607807843dc9a0f9d21453ec1f253724c6326a2fbecf229acd559d43a6"
+  version "0.1.1"
 
   bottle :unneeded
 
