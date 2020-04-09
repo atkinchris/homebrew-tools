@@ -1,8 +1,8 @@
 class Statslogger < Formula
   desc "Tool to log system stats to stdout or a file"
   homepage "https://github.com/atkinchris/statslogger"
-  url "https://github.com/atkinchris/statslogger/releases/download/v0.4.0/statslogger-0.4.0.tar.gz"
-  sha256 "f242f9145e5c75319f2db8ba1a909fa8f1437d5df64b1d716e77c9c4fe04897c"
+  url "https://github.com/atkinchris/statslogger/releases/download/v0.5.0/statslogger-0.5.0.tar.gz"
+  sha256 "f9bdacf9f34a7a4d27d5559a212ed4e24c14753bd31ff50b1ac482c77d635ae3"
   bottle :unneeded
 
   plist_options :startup => true
@@ -19,7 +19,7 @@ class Statslogger < Formula
         <string>--time</string>
         <string>15</string>
         <string>--output</string>
-        <string>statslogger.ndjson</string>
+        <string>.</string>
       </array>
       <key>RunAtLoad</key>
       <true />
