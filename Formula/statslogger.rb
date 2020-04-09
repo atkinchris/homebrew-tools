@@ -1,8 +1,8 @@
 class Statslogger < Formula
   desc "Tool to log system stats to stdout or a file"
   homepage "https://github.com/atkinchris/statslogger"
-  url "https://github.com/atkinchris/statslogger/releases/download/v0.3.1/statslogger-0.3.1.tar.gz"
-  sha256 "a8390499e5bfce249b150df1fcae51cea858feaccae7461d130be8a2fe74cbfd"
+  url "https://github.com/atkinchris/statslogger/releases/download/v0.4.0/statslogger-0.4.0.tar.gz"
+  sha256 "f242f9145e5c75319f2db8ba1a909fa8f1437d5df64b1d716e77c9c4fe04897c"
   bottle :unneeded
 
   plist_options :startup => true
