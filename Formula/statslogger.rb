@@ -1,8 +1,8 @@
 class Statslogger < Formula
   desc "Tool to log system stats to stdout or a file"
   homepage "https://github.com/atkinchris/statslogger"
-  url "https://github.com/atkinchris/statslogger/releases/download/v0.3.0/statslogger-0.3.0.tar.gz"
-  sha256 "ee1e57c3a998dd04d9bbf5c6422630f0ab5e6894d33344567473f98343316651"
+  url "https://github.com/atkinchris/statslogger/releases/download/v0.3.1/statslogger-0.3.1.tar.gz"
+  sha256 "a8390499e5bfce249b150df1fcae51cea858feaccae7461d130be8a2fe74cbfd"
   bottle :unneeded
 
   plist_options :startup => true
@@ -26,7 +26,7 @@ class Statslogger < Formula
       <key>KeepAlive</key>
       <false />
       <key>WorkingDirectory</key>
-      <string>#{HOMEBREW_PREFIX}/.statslogger/</string>
+      <string>#{var}/log</string>
       <key>StandardOutPath</key>
       <string>/dev/null</string>
       <key>StandardErrorPath</key>
